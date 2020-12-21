@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: linear-gradient(to top right, white 20%, #0f6e88 50%, #013240 110%) ;
+    height: 100vh;
+}
+
+
+
+
+
+#logo{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 100px;
+}
+p{
+    
+    
+}
+
+h1{
+    
+    font-size: 80px ;
+    text-align: center;
+    font-family: 'Allura', cursive;
+}
+
+#buon{
+    color: #df1617;
+}
+
+#natale{
+    color: #028002;
+}
+
+.container{
+    color: white;
+    text-align: center;
+    line-height: 250%;
+    font-weight: bold;
+}
+
+li{
+    display: inline-block;
+    font-size: 15px;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+li span{
+    display: block;
+    font-size: 56px
+}
+
+marquee{
+    position: relative;
+    
+    
+    
+}
+
+footer{
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    height: 305px;
+    background-image: url("neve.png");
+    background-size: 100%;
+    
+}
+
+/* Smartphone */
+@media (max-width: 576px) { 
+    footer{
+        position: fixed;
+        width: 240vw;
+        bottom: 0;
+        height: 170px;
+        background-image: url("regali.png");
+        background-size: 100%;
+        
+    }
+    #logo{
+        width: 60px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    li{
+        font-size: 12px;
+    }
+    li span{
+        font-size: 30px;
+    }
+    
+}
+/*Tablet */
+@media (min-width: 768px) { 
+    footer{
+        position: fixed;
+        width: 220vw;
+        bottom: 0;
+        height: 350px;
+        background-image: url("regali.png");
+        background-size: 100%;
+        
+    }
+    h1{
+        font-size: 150px;
+        
+    }
+    li{
+        font-size: 30px ;
+    }
+    li span{
+        font-size: 45px;
+    }
+}
+
+/* PC */
+@media (min-width: 1200px) { 
+    footer{
+        position: fixed;
+        width: 100vw;
+        bottom: 0;
+        height: 305px;
+        background-image: url("neve.png");
+        background-size: 100%;
+        
+    }
+    h1{
+        font-size: 80px;
+       
+    }
+
+}

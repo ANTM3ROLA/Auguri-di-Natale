@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buon Natale</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <link rel="shortcut icon" href="logovillaggio.png" type="image/x-icon">
+    
+</head>
+<body>
+    <script src='https://code.jquery.com/jquery-2.1.0.js'></script>
+    <script src='https://loktar00.github.io/JQuery-Snowfall/snowfall.jquery.min.js'></script>
+        <script>
+          $( document ).ready(function() {
+            $(document).snowfall({shadow : true, round : true,  minSize: 5, maxSize:8});
+          }); 
+      	</script>
+    <img  id="logo" src="logovillaggio.png" alt="" >
+    
+    <div id="header">
+        <h1 id="buon">Buon</h1>
+        <h1 id="natale">Natale</h1>
+    </div>
+    
+    <div class="container">
+        <h2 id="headline">Mancano esattamente:</h2>
+          <div id="countdown">
+            <ul>
+              <li><span id="Giorni"></span>Giorni </li>
+              <li><span id="Ore"></span>Ore</li>
+              <li><span id="Minuti"></span>Minuti</li>
+              <li><span id="Secondi"></span>Secondi</li>
+            </ul>
+            
+    </div>
+    
+    <div id="babbonatale">
+        <marquee  direction="left" scrolldelay="5"><img src="babbonatale1.png"/></marquee>
+        
+    </div>
+    
+    <footer></footer>
+    
+
+</body>
+</html>
